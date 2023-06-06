@@ -17,3 +17,9 @@ This is a simple implementation of a synchronized TCP server using Boost.Asio li
 
 <span style="color: red;">1.</span> Clone the repository: ``` https://github.com/MaksimSinyu/Synchronized-TCP-Server.git ```
 <span style="color: red;">2.</span> Build the project <span style="color: blue;">using</span> the provided Makefile:
+
+<pre>
+```diff
+- Этот текст будет красным цветом
+```
+</pre>
