@@ -28,7 +28,7 @@ This is a simple implementation of a synchronized TCP server using Boost.Asio li
 
 ## License
 
-This project is licensed under the Boost Software License - Version 1.0. See the LICENSE file for details.
+This project is licensed under the Boost Software [LICENSE](https://github.com/MaksimSinyu/Synchronized-TCP-Server/blob/main/LICENSE) - Version 1.0. See the LICENSE file for details.
 
 Feel free to explore, modify, and use the code for your own projects.
 
