@@ -15,11 +15,27 @@ This is a simple implementation of a synchronized TCP server using Boost.Asio li
 
 ## Usage
 
-<span style="color: red;">1.</span> Clone the repository: ``` https://github.com/MaksimSinyu/Synchronized-TCP-Server.git ```
-<span style="color: red;">2.</span> Build the project <span style="color: blue;">using</span> the provided Makefile:
+1. Clone the repository: 
+``` https://github.com/MaksimSinyu/Synchronized-TCP-Server.git ```
+2. Build the project using the provided Makefile:
+```cd synchronized-tcp-server```
+```make```
+3. Run the server:
+```./server```
+4. Connect multiple clients to the server using telnet or any TCP client of your choice:
+```telnet localhost 1234```
+5. Start sending messages from the connected clients. The server will receive each message and broadcast it to all other connected clients.
 
-<pre>
-```diff
-- Этот текст будет красным цветом
-```
-</pre>
+## License
+
+This project is licensed under the Boost Software License - Version 1.0. See the LICENSE file for details.
+
+Feel free to explore, modify, and use the code for your own projects.
+
+## Acknowledgements
+
+This project utilizes the Boost.Asio library, which provides a powerful set of tools for network programming in C++.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
